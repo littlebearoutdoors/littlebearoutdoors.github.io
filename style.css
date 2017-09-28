@@ -4,9 +4,10 @@ html, body {
 }
 
 .container {
-  max-width: 940px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0 10px;
+  font-family: 'Arial Black';
 }
 
 .jumbotron {
@@ -20,12 +21,11 @@ html, body {
 .main {
   position: relative;
   top: 50px;
-  text-align: center;
+  text-align: left;
 }
 
 .main h1 {
   color: white;
-  font-family: 'Arial';
   font-weight: 600;
   font-size: 70px;
   margin-top: 0;
@@ -36,13 +36,12 @@ html, body {
 
 .bottom {
   position: relative;
-  top: 600px;
-  text-align: center;
+  top: 550px;
+  text-align: right;
 }
 
 .bottom h1 {
   color: white;
-  font-family: 'Arial';
   font-weight: 600;
   font-size: 70px;
   margin-top: 0;

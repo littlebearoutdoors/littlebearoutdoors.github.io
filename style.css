@@ -3,24 +3,23 @@ html, body {
   padding: 0;
 }
 
-.container {
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 0 10px;
-  font-family: 'Arial Black';
-}
-
 .jumbotron {
   background-image: url('https://i.imgur.com/Zrq0vtb.jpg');
-  background-size: cover;
-  background-position: center center;
+  background-size: contain;
   background-repeat: no-repeat;
-  height: 900px;
+  height: 1000px;
+}
+
+.container {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 0 10px;
+  font-family: 'Cabin';
 }
 
 .main {
   position: relative;
-  top: 50px;
+  top: 25px;
   text-align: left;
 }
 
@@ -33,20 +32,3 @@ html, body {
   text-transform: uppercase;
   text-shadow: 4px 2px 10px #000000;
 }
-
-.bottom {
-  position: relative;
-  top: 550px;
-  text-align: right;
-}
-
-.bottom h1 {
-  color: white;
-  font-weight: 600;
-  font-size: 70px;
-  margin-top: 0;
-  margin-bottom: 80px;
-  text-transform: uppercase;
-  text-shadow: 4px 2px 10px #000000;
-}
-
